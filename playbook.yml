@@ -1,7 +1,7 @@
 ---
 - name: dhcp
   hosts:
-    - all
+    - dhcp
   become: true
   roles:
     - role: gepaplexx.dhcp
